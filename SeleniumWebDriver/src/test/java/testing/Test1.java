@@ -21,7 +21,7 @@ public class Test1 {
     		
 		} else if(value.equals("firefox")){
 			
-			System.setProperty("webdriver.geckodriver.driver","C:\\Program Files\\geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver","C:\\Program Files\\geckodriver.exe");
     		driver=new FirefoxDriver();
     		
 		}
