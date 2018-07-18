@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="Testnew(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="testing.Test1">
+        <methods>
+          <include name="testlogic" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testing.Test1 -->
+    </classes>
+  </test> <!-- Testnew(failed) -->
+</suite> <!-- Failed suite [Suite] -->

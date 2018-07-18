@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="49690" started-at="2018-07-18T05:42:26Z" finished-at="2018-07-18T05:43:16Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="27167" started-at="2018-07-18T05:42:26Z" finished-at="2018-07-18T05:42:53Z">
+      <class name="testing.Test1">
+        <test-method status="PASS" signature="testlogic(java.lang.String)[pri:0, instance:testing.Test1@3532ec19]" name="testlogic" duration-ms="27138" started-at="2018-07-18T05:42:26Z" finished-at="2018-07-18T05:42:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testlogic -->
+      </class> <!-- testing.Test1 -->
+    </test> <!-- Test -->
+    <test name="Testnew" duration-ms="22355" started-at="2018-07-18T05:42:54Z" finished-at="2018-07-18T05:43:16Z">
+      <class name="testing.Test1">
+        <test-method status="PASS" signature="testlogic(java.lang.String)[pri:0, instance:testing.Test1@464bee09]" name="testlogic" duration-ms="22349" started-at="2018-07-18T05:42:54Z" finished-at="2018-07-18T05:43:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testlogic -->
+      </class> <!-- testing.Test1 -->
+    </test> <!-- Testnew -->
+  </suite> <!-- Suite -->
+</testng-results>
