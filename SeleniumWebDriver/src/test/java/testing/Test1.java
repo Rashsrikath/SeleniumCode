@@ -16,12 +16,12 @@ public class Test1 {
     	System.out.println(value);
         if (value.equals("chrome")) {
 			
-        	System.setProperty("Webdriver.chrome.driver","C:\\eclipse\\chromedriver.exe");
+        	System.setProperty("Webdriver.chrome.driver","C:\\Program Files\\chromedriver.exe");
     		driver=new ChromeDriver();
     		
 		} else if(value.equals("firefox")){
 			
-			System.setProperty("Webdriver.geckodriver.driver","C:\\eclipse\\geckodriver.exe");
+			System.setProperty("Webdriver.geckodriver.driver","C:\\Program Files\\geckodriver.exe");
     		driver=new FirefoxDriver();
     		
 		}
